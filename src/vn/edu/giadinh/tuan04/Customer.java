@@ -42,7 +42,7 @@ public class Customer {
         for(int i = 0 ; i < soKhachhang ; i++)
         {
             System.out.println("No."+(i+1)+":"+userName);
-            System.out.println("Adress:"+adressIP[1]);
+            System.out.println("Adress:"+adressIP[i]);
         }
     }
 }

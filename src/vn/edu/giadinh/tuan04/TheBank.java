@@ -10,7 +10,7 @@ public class TheBank {
         int menu;
         do
         {
-            System.out.println("_____THE BANK US_____");
+            System.out.println("_____THE BANK SUN_____");
             System.out.println("1.Withdraw, Send, Check Money.");
             System.out.println("2.Object function Customer.");
             System.out.println("3.Object function Employee.");
