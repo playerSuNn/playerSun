@@ -1,15 +1,15 @@
 package com.nhutnl2008110101.lab6;
 
 public class Square {
-    String nameMusic = "Cảm nhận -MAIAMNHAC-";
-    boolean click = true;
+    private String nameMusic = "Cảm nhận -MAIAMNHAC-";
+    private boolean click = true;
 
-    Square()
+    public Square()
     {
 
     }
 
-    void click_Shape()
+    public void click_Shape()
     {
         if(click == true)
         {
@@ -20,7 +20,7 @@ public class Square {
             System.out.println("ENROR");
         }
     }
-    void playMusic()
+    public void playMusic()
     {
         System.out.println(nameMusic);
     }
