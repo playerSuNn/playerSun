@@ -8,6 +8,8 @@ public class Animals {
     private String location;
     private String sound;
 
+    
+
     protected void makaNoise()
     {
         //tên âm thanh cho loài khác nhau
