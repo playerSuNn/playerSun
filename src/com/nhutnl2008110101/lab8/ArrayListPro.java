@@ -27,6 +27,7 @@ public class ArrayListPro {
 
         list5.add("Xuân");
         list5.add("Hạ");
+        
         System.out.println("số phần tử list5 :"+list5.size());
         System.out.println(list5);
 
