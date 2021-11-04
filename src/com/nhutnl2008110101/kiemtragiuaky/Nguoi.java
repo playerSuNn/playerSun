@@ -22,8 +22,10 @@ public class Nguoi {
 
     @Override
     public String toString() {
-        // TODO Auto-generated method stub
-        return super.toString();
+        String s;
+        s = "Tên :" +getHoTen()+ "\n" +"Địa chỉ : " +getDiaChi();
+        //return super.toString();
+        return s;
     }
 
     protected void xuat()

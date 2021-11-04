@@ -27,12 +27,13 @@ public class NhanVien extends Nguoi{
 
     @Override
     public String toString() {
-        // TODO Auto-generated method stub
+        System.out.println("Hệ số Lương 0 < hesoLuong >= 10");
+        System.out.println("Cách tính lương : 1500000*hesoLuong");
         return super.toString();
     }
 
     protected void xuat(){
-        System.out.println("THÔNG TIN NHÂN VIÊN");
-        System.out.println("Số lương Nhân Viên : "+(1500000*heSoluong));
+        //System.out.println("THÔNG TIN NHÂN VIÊN");
+        System.out.println("Số lương Nhân Viên : "+(1500000*heSoluong)+"VND");
     }
 }

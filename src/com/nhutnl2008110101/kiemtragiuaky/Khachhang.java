@@ -23,12 +23,13 @@ public class Khachhang extends Nguoi{
 
     @Override
     public String toString() {
-        System.out.println("Hóa đơn có Giá Trị : "+1000"USD"");
+        System.out.println("Hóa đơn có Giá Trị : "+1000+"USD");
+        return super.toString();
     }
     protected void xuat()
     {
         System.out.println("Tên CÔNG TY : "+tenCongty);
-        System.out.println("Giá Trị Hóa đơn : "+giaTrihoaDon);
+        //System.out.println("Giá Trị Hóa đơn : "+1000+" USD");
     }
     
 }

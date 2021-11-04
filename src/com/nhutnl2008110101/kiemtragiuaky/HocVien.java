@@ -35,6 +35,10 @@ public class HocVien extends Nguoi{
         System.out.println("ĐIỂM TB : "+(diemMonhoc1+diemMonhoc2)/2);
         return diemTB;
     }
+    @Override
+    public String toString() {
+        return super.toString();
+    }
     protected void xuat(){
         System.out.println("THÔNG TIN HỌC VIÊN");
         System.out.println("Số lượng Học Viên : "+soLuongHv);
