@@ -1,14 +1,14 @@
 package com.nhutnl2008110101.kiemtragiuaky;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class DanhSachQL {
-    public static void main(String[] args) {
-        List<String> danhSach;
-        danhSach = new ArrayList<>();
-
+    private ArrayList<Nguoi> danhSach = new ArrayList<Nguoi>();
+    public void them(Nguoi nguoi){
+        this.danhSach.add(nguoi);
     }
-
+    public void inDanhSach(){
+        System.out.println(danhSach);
+    }
     
 }
