@@ -2,6 +2,12 @@ package com.nhutnl2008110101.lab7;
 
 import java.util.Scanner;
 
+import com.nhutnl2008110101.lab7.Cat;
+import com.nhutnl2008110101.lab7.Dog;
+import com.nhutnl2008110101.lab7.Hippo;
+import com.nhutnl2008110101.lab7.Lion;
+import com.nhutnl2008110101.lab7.Wolf;
+
 public class testDrive {
     public static void main(String[] args) {
         /*System.out.println("LION");
